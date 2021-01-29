@@ -4,8 +4,8 @@ driver = webdriver.Chrome('/usr/local/bin/chromedriver')
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         links = "topbitcoinsera"
-        driver.get("http://"+ links + ".dev8.leaddist.team")K
+        driver.get("http://"+ links + ".dev8.leaddist.team")
 
-JKK
+
 if __name__ == '__main__':
     unittest.main()
